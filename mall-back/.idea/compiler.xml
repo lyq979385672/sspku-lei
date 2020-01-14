@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mall-rabbitmq" />
+        <module name="mall-api" />
+        <module name="mall-elasticsearch" />
+        <module name="mall" />
+        <module name="mall-user-web" />
+        <module name="mall-manage-service" />
+        <module name="mall-manage-web" />
+        <module name="mall-redis" />
+        <module name="mall-user" />
+        <module name="mall-user-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mall" options="-parameters" />
+      <module name="mall-api" options="-parameters" />
+      <module name="mall-elasticsearch" options="-parameters" />
+      <module name="mall-manage-service" options="-parameters" />
+      <module name="mall-manage-web" options="-parameters" />
+      <module name="mall-rabbitmq" options="-parameters" />
+      <module name="mall-user" options="-parameters" />
+      <module name="mall-user-service" options="-parameters" />
+      <module name="mall-user-web" options="-parameters" />
+    </option>
+  </component>
+</project>
